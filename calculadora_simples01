@@ -1,0 +1,37 @@
+print(" -------> Bem Vindo a Calculadora Simples <------- ")
+nome = input("Qual seu nome? : ")
+print("")
+print(f"Soma: + | Subtração: - |Multiplicação * | Divisão /")
+operador = input(f"Certo {nome},  Qual Operador será utilizado? (+|-|*|/) : ")
+if operador == "+"  :
+    print("")
+    x = int(input ("1 -> Digite o 1º número: "))
+    y = int(input ("2 -> Digite o 2º número: "))
+    total = x + y
+    print(f"-> A conta {x} {operador} {y} = {total}")
+
+elif operador == "-":
+     print("")
+     x = int(input ("1 -> Digite o 1º número: "))
+     y = int(input ("2 -> Digite o 2º número: "))
+     total = x - y
+     print(f"-> A conta {x} {operador} {y} = {total}")
+
+elif operador =="*":
+     print("")
+     x = int(input ("1 -> Digite o 1º número: "))
+     y = int(input ("2 -> Digite o 2º número: "))
+     total = x * y
+     print(f"-> A conta {x} {operador} {y} = {total}")
+
+elif  operador == "/":
+      print("")
+      x = int(input ("1 -> Digite o 1º número: "))
+      y = int(input ("2 -> Digite o 2º número: "))
+      total = x / y
+      print("")
+      print(f"-> A conta {x} {operador} {y} = {total}")
+
+else:
+    print("")
+    print(" -------> Operador Inválido! Somente Válidos (+|-|*|/) <-------")
